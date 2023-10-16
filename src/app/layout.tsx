@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={dmSans.className}>
         <Sidebar />
-        <div className="flex-1">
+        <div className="flex-1 p-4">
           {children}
         </div>
       </body>
